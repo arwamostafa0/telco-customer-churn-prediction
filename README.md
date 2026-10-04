@@ -8,6 +8,8 @@ Customer churn is an important business problem for telecom companies. The goal 
 
 The trained model is integrated into an interactive Streamlit application where users can enter customer information and receive a churn prediction with its estimated probability.
 
+🚀 **[Live Demo](https://telco-customer-churn-prediction-844h2zzgmdvdbactn2e4sp.streamlit.app/)**
+
 ## 🎯 Objective
 
 The main objectives of this project are:
