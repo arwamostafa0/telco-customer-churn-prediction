@@ -6,9 +6,12 @@ import joblib
 # ============================================================
 # Load Model & Preprocessor
 # ============================================================
-
-model = joblib.load("final_model.pkl")
-preprocessor = joblib.load("preprocessor.pkl")
+@st.cache_resource
+def load_data_and_models():
+    model = joblib.load("final_model.pkl")
+    preprocessor = joblib.load("preprocessor.pkl")
+    return model, preprocessor
+model, preprocessor = load_data_and_models()
 
 # Threshold selected using validation data
 THRESHOLD = 0.40
