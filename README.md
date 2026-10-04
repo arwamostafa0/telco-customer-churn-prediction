@@ -93,10 +93,13 @@ The application then returns:
 telco-churn-prediction/
 │
 ├── app.py
+├── telco_churn_prediction.ipynb
+├── Telco-Customer-Churn.csv
 ├── final_model.pkl
 ├── preprocessor.pkl
 ├── requirements.txt
 └── README.md
+
 ```
 
 ## ▶️ Run Locally
