@@ -2,6 +2,15 @@ import streamlit as st
 import pandas as pd
 import joblib
 
+# ============================================================
+# Page Configuration
+# ============================================================
+
+st.set_page_config(
+    page_title="Telco Customer Churn Prediction",
+    page_icon="📊",
+    layout="wide"
+)
 
 # ============================================================
 # Load Model & Preprocessor
@@ -17,15 +26,6 @@ model, preprocessor = load_data_and_models()
 THRESHOLD = 0.40
 
 
-# ============================================================
-# Page Configuration
-# ============================================================
-
-st.set_page_config(
-    page_title="Telco Customer Churn Prediction",
-    page_icon="📊",
-    layout="wide"
-)
 
 
 # ============================================================
